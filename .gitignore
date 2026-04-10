@@ -1,0 +1,21 @@
+# Archivos de Datos y Bases de Datos (No subir por peso)
+data/
+*.csv
+*.db
+*.sqlite3
+
+# Archivos temporales de Python y Jupyter
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# Entornos virtuales
+venv/
+.venv/
+env/
+.env
+
+# Archivos temporales de Airflow y Docker
+airflow-webserver.pid
+logs/
