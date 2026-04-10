@@ -72,7 +72,7 @@ def transform_and_merge():
     grammys_df['artist_clean'] = grammys_df['artist'].str.lower().str.strip()
     grammys_df['nominee_clean'] = grammys_df['nominee'].str.lower().str.strip()
 
-    # Fusión
+    # Fusión+
     merged_df = pd.merge(
         spotify_df, grammys_df, 
         left_on=['artists_clean', 'track_name_clean'], 
